@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exámen</title>
+    <link rel="stylesheet" href="CSS/styleLog.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrap">
+        <form class="cf">
+            <img id="editFotoShow" src="imgs/logo.jpg">
+            <h1>Hoteles de Clase</h1>
+            <div class="half left cf">
+                <label for="">
+                    <input type="text" placeholder="Correo" id="correo">
+                    <!-- <span>Correo electronico</span> -->
+                </label>
+            </div>
+            <div class="half right cf">
+                <label for="">
+                    <input type="password" placeholder="Contraseña" id="contrasena">
+                    <!-- <span>Contraseña</span> -->
+                </label>
+            </div>
+            <button type="button" class="input-editar" id="loginButton">Iniciar Sesion</button>
+        </form>
+
+        <div class="return">
+            <a id="recuperar">Recuperar Contraseña</a>
+        </div>
+    </div>
+
+
+    <div class="edit-box">
+        <form class="cf">
+            <h1>Recuperar Contraseña</h1>
+            <br>
+            <input type="email" id="editCorreo" placeholder="Email">
+            <button type="button" class="input-editar" id="btnEditar">Solicitar</button>
+            <button type="button" class="input-cancelar" id="Cancelar">Cancelar</button>
+        </form>
+    </div>
+
+    <!-- <script src="js/jquery-3.1.1.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- <script src="js/login/login.servicio.js"></script>
+    <script src="js/login/login.controlador.js"></script> -->
+    
+</body>
+
+</html>
