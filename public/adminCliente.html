@@ -92,32 +92,8 @@
                                 <input type="text" id="sexo" placeholder="Género">
                                 <input type="email" id="email" placeholder="Correo Electrónico">
                                 <input type="password" id="contrasena" placeholder="Contraseña">
+                                <input type="password" id="confirmarContrasena" placeholder="COnfirmación de Contraseña">
                             </div>
-                            <div class="half right cf">
-                                <input type="hidden" id="foto">
-                                <!-- search input box -->
-                                <div class="input-group">
-                                    <input type="text" id="search_location" class="form-control" placeholder="Lugar">
-                                    <div class="input-group-btn">
-                                        <button class="btn btn-default get_map input-submit" type="button" id="btnMapa">
-                                            Buscar
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <!-- display google map -->
-                                <section id="cd-google-map">
-                                    <div id="google-container"></div>
-                                    <div id="cd-zoom-in"></div>
-                                    <div id="cd-zoom-out"></div>
-                                </section>
-                            </div>
-
-
-                            <!-- display selected location information -->
-                            <input type="hidden" id="latitude" class="search_latitude" size="30">
-                            <input type="hidden" id="longitude" class="search_longitude" size="30">
-                            <button type="button" class="input-submit" id="registrar">Registrar</button>
                         </form>
                     </div>
 
@@ -128,9 +104,6 @@
                                 <div class="flexsearch--form">
                                     <div class="flexsearch--input-wrapper">
                                         <input class="flexsearch--input" type="text" id="buscar" placeholder="Buscar">
-                                        <!--<select id="inputTipoBuscar">
-                                  <option value="" disabled selected>Seleccion Tipo</option>
-                                </select>-->
                                     </div>
                                     <button type="button" class="flexsearch--submit" id="btnBuscar">&#10140;</button>
                                 </div>
@@ -180,15 +153,6 @@
                         <input type="text" id="editEmail" placeholder="Correo Electrónico">
                         <input type="text" id="editContrasena" placeholder="Contraseña">
                     </div>
-                    <div class="half right cf">
-                        <section id="cd-google-map2">
-                            <div id="google-container2"></div>
-                            <div id="cd-zoom-in2"></div>
-                            <div id="cd-zoom-out2"></div>
-                        </section>
-                        <input type="hidden" id="editFoto">
-                        <input type="hidden" id="editId">
-                    </div>
                     <button type="button" class="input-editar" id="btnEditar">Editar</button>
                     <button type="button" class="input-cancelar" id="Cancelar">Cancelar</button>
                 </form>
@@ -212,13 +176,13 @@
         <script src="JS/Tab.js"></script>
         <script src="JS/form.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBm453fVYnWQvAG2GG1VyB_VA9dnMfIK3E" type="text/javascript"></script>
-        <script src="js/map.js"></script>
-        <script src="js/mapCapture.js"></script>
         <!-- Fin: Scripts de estilos -->
 
         <script src="js/imagenes.js"></script>
         <script src="js/admin/admin.servicio.js"></script>
-        <script src="js/admin/adminCliente.controlador.js"></script>
+        <script src="js/cliente/cliente.servicio.js"></script>
+        <script src="js/cliente/cliente.controlador.js"></script>
+        <script src="js/admin/admin.controlador.js"></script>
     </footer>
     <!-- / JS-scripts -->
 
