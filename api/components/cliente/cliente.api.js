@@ -21,6 +21,7 @@ module.exports.registrar = function (req, res) {
         segundoApellido: req.body.segundoApellido,
         cedula: req.body.cedula,
         fechaNacimiento: req.body.fechaNacimiento,
+        correo:req.body.correo,
         sexo: req.body.sexo,
         foto: req.body.foto,
         contrasena: req.body.contrasena,

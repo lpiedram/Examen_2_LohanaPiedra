@@ -1,6 +1,6 @@
-'use strict';
+'use strict'
 
-const baseUrl = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port;
+// const baseUrl = window.location.protocol + '//' + window.location.hostname + ':' + window.location.port;
 const Salir = document.querySelector('#salir');
 
 

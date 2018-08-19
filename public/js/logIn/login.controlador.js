@@ -45,7 +45,7 @@ function login() {
                         break;
 
                     case "1":
-                        window.location.assign(baseUrl + "/public/clienteIndex.html");
+                        window.location.assign(baseUrl + "/public/indexCliente.html");
                         break;
                 }
             }

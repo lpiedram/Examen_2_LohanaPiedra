@@ -8,6 +8,7 @@ let clienteSchema = mongoose.Schema({
     segundoApellido: { type: String, required: false },
     cedula: { type: Number, required: true },
     fechaNacimiento: { type: String, required: true },
+    correo: { type: String, required: true },
     sexo: { type: String, required: true },
     foto: { type: String, required: true },
     contrasena: { type: String, required: true },

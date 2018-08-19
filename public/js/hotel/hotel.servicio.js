@@ -18,7 +18,7 @@ function registrarHotel(hotel) {
             distrito: hotel[7],
             latitude: hotel[8],
             longitude: hotel[9],
-            foto: hotel[10],
+            foto: hotel[10]
         }
     });
 
@@ -55,7 +55,7 @@ function actualizarHotel(id_user, hotel) {
             distrito: hotel[7],
             latitude: hotel[8],
             longitude: hotel[9],
-            foto: hotel[10],
+            foto: hotel[10]
         }
     });
 

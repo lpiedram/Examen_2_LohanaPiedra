@@ -71,10 +71,10 @@ function registrarCliente() {
         segundoApellido.value,
         cedula.value,
         fechaNacimiento.value,
-        correo.value,
+        // correo.value,
         sexo.value,
         contrasena.value,
-        foto.value
+        // foto.value
     );
 
     let validar = validarFormulario();
@@ -105,12 +105,36 @@ function validarFormulario() {
     let regexFoto = /.(gif|jpeg|jpg|png)$/;
     let respuesta = false;
 
-    if (nombre.value == '' || (regexSoloLetras.test(nombre.value) == false)) {
-        nombre.classList.add('error_input');
+    if (primerNombre.value == '' || (regexSoloLetras.test(primerNombre.value) == false)) {
+        primerNombre.classList.add('error_input');
         toastr.error('Campo Nombre no puede estar vacio y solo acepta letras');
         respuesta = true;
     } else {
-        nombre.classList.remove('error_input');
+        primerNombre.classList.remove('error_input');
+    }
+
+    if (segundoNombre.value == '' || (regexSoloLetras.test(segundoNombre.value) == false)) {
+        segundoNombre.classList.add('error_input');
+        toastr.error('Campo Nombre no puede estar vacio y solo acepta letras');
+        respuesta = true;
+    } else {
+        segundoNombre.classList.remove('error_input');
+    }
+
+    if (primerApellido.value == '' || (regexSoloLetras.test(primerApellido.value) == false)) {
+        primerApellido.classList.add('error_input');
+        toastr.error('Campo Nombre no puede estar vacio y solo acepta letras');
+        respuesta = true;
+    } else {
+        primerApellido.classList.remove('error_input');
+    }
+
+    if (segundoApellido.value == '' || (regexSoloLetras.test(segundoApellido.value) == false)) {
+        segundoApellido.classList.add('error_input');
+        toastr.error('Campo Nombre no puede estar vacio y solo acepta letras');
+        respuesta = true;
+    } else {
+        segundoApellido.classList.remove('error_input');
     }
 
     if (cedula.value == null || (regexCedula.test(cedula.value) == false)) {

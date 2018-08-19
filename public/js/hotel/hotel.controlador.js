@@ -34,8 +34,10 @@ const btnCancelar = document.querySelector('#Cancelar');
 const Buscar = document.querySelector('#buscar');
 const btnBuscar = document.querySelector('#btnBuscar');
 
-// btnRegistrar.addEventListener('click',registrarHotel);
-// btnEditar.addEventListener('click',editarFormularioHotel);
+btnRegistrar.addEventListener('click',registrarHotel);
+btnEditar.addEventListener('click',editarFormularioHotel);
+btnBuscar.addEventListener('click',buscarHotel);
+btnCancelar.addEventListener('click',cancelarHotel);
 
 Comprobar();
 imprimirListaHoteles();

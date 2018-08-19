@@ -14,10 +14,11 @@ function registrarCliente(cliente) {
             segundoApellido: cliente[3],
             cedula: cliente[4],
             fechaNacimiento: cliente[5],
-            sexo: cliente[6],
-            foto: cliente[7],
-            contrasena: cliente[8],
-            confirmarContrasena: cliente[9]
+            correo: cliente[6],
+            sexo: cliente[7],
+            foto: cliente[8],
+            contrasena: cliente[9],
+            confirmarContrasena: cliente[10]
         }
     });
 
@@ -50,9 +51,10 @@ function actualizarCliente(id_user, cliente) {
             segundoApellido: cliente[3],
             cedula: cliente[4],
             fechaNacimiento: cliente[5],
-            sexo: cliente[6],
-            foto: cliente[7],
-            contrasena: cliente[8]
+            correo: cliente[6],
+            sexo: cliente[7],
+            foto: cliente[8],
+            contrasena: cliente[9]
         }
     });
 
